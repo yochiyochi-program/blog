@@ -1,5 +1,5 @@
 baseURL = "https://yochiyochi-program.github.io/blog"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "よちよちプログラミング部"
 theme = "ananke"
 publishDir = "docs"
