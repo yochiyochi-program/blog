@@ -5,6 +5,12 @@
 
 ## 記事の作成方法
 ```
+// レポジトリ のクローン
+git clone https://github.com/yochiyochi-program/blog.git
+
+// クローンしたフォルダに移動
+cd blog
+
 // 記事作成
 hugo new posts/{任意のファイル名}.md
 
