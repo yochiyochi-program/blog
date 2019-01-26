@@ -1,5 +1,5 @@
 ---
-title: "VSCodeのインストール方法"
+title: "Visual Studio Codeのインストール方法"
 date: 2019-01-21T16:19:27+09:00
 draft: false
 ---
