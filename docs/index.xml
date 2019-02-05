@@ -6,10 +6,25 @@
     <description>Recent content on よちよちプログラミング部</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Feb 2019 13:48:37 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 05 Feb 2019 14:17:19 +0900</lastBuildDate>
     
 	<atom:link href="https://yochiyochi-program.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://yochiyochi-program.github.io/blog/posts/markdown/</link>
+      <pubDate>Tue, 05 Feb 2019 14:17:19 +0900</pubDate>
+      
+      <guid>https://yochiyochi-program.github.io/blog/posts/markdown/</guid>
+      <description> markdownの使い方について
+ドキュメント 非公式ドキュメント 以下のサイトに使い方がわかりやすくまとまっていました。 https://codelab.website/markdown-cheat-sheet/
+エディタ マークダウンを書くにはどのエディタでも問題ありません。以下はオススメのエディタです。
+https://yochiyochi-program.github.io/blog/posts/vscode/
+Markdownのプレビュー方法について vscodeであれば、以下の手順でmarkdownのプレビューを確認することができます。
+ 画面の右上のアイコンをクリック  プレビューを確認
+画面の左側がmarkdownで、右側がそのプレビューです。   </description>
+    </item>
     
     <item>
       <title>Slack</title>
