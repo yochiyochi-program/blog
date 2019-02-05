@@ -1,7 +1,7 @@
 ---
 title: "Markdown"
 date: 2019-02-05T14:17:19+09:00
-draft: true
+draft: false
 ---
 
 markdownの使い方について
@@ -21,6 +21,7 @@ vscodeであれば、以下の手順でmarkdownのプレビューを確認する
 1. 画面の右上のアイコンをクリック
 ![this is a image](1.png)
 
-2. プレビューを確認
+2. プレビューを確認  
+画面の左側がmarkdownで、右側がそのプレビューです。
 ![this is a image](2.png)
 
