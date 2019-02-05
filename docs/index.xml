@@ -6,10 +6,27 @@
     <description>Recent content on よちよちプログラミング部</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jan 2019 16:19:27 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 05 Feb 2019 13:48:37 +0900</lastBuildDate>
     
 	<atom:link href="https://yochiyochi-program.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Slack</title>
+      <link>https://yochiyochi-program.github.io/blog/posts/slack/</link>
+      <pubDate>Tue, 05 Feb 2019 13:48:37 +0900</pubDate>
+      
+      <guid>https://yochiyochi-program.github.io/blog/posts/slack/</guid>
+      <description>Slackの使い方について
+ユーザー登録 招待メールから登録をお願いします。
+アプリインストール PC 公式サイトからインストール
+https://slack.com/intl/ja-jp/downloads
+スマホアプリ app storeから検索してインストール
+使い方の確認 公式ドキュメント https://get.slack.help/hc/ja/categories/200111606
+まとめ 以下のページに簡潔に使い方がまとまっていました。 https://tech-camp.in/note/technology/14901/
+Slackを少し使ってみる チャンネルの確認 各言語ごとにチャンネルが用意されているので質問内容に応じて使い分けてください。
+メッセージの投稿 // テキストメッセージ hello // 絵文字の投稿 hello :smile: // 引用（1行） &amp;gt;hello // 引用（複数行） &amp;gt;&amp;gt;&amp;gt;hello world  メッセージへのリアクション リアクションのボタンをクリック</description>
+    </item>
     
     <item>
       <title>Visual Studio Codeのインストール方法</title>
