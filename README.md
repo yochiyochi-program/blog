@@ -5,6 +5,9 @@
 
 ## 記事の作成方法
 ```
+// hugo インストール
+brew install hugo
+
 // レポジトリ のクローン
 git clone https://github.com/yochiyochi-program/blog.git
 
