@@ -1,7 +1,7 @@
 ---
 title: "Slack"
 date: 2019-02-05T13:48:37+09:00
-draft: true
+draft: false
 ---
 
 Slackの使い方について
