@@ -13,10 +13,10 @@
     
     <item>
       <title>Markdown</title>
-      <link>https://yochiyochi-program.github.io/blog/posts/markdown/</link>
+      <link>https://yochiyochi-program.github.io/blog/posts/markdown/markdown/</link>
       <pubDate>Tue, 05 Feb 2019 14:17:19 +0900</pubDate>
       
-      <guid>https://yochiyochi-program.github.io/blog/posts/markdown/</guid>
+      <guid>https://yochiyochi-program.github.io/blog/posts/markdown/markdown/</guid>
       <description> markdownの使い方について
 ドキュメント 非公式ドキュメント 以下のサイトに使い方がわかりやすくまとまっていました。 https://codelab.website/markdown-cheat-sheet/
 エディタ マークダウンを書くにはどのエディタでも問題ありません。以下はオススメのエディタです。
