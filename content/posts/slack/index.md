@@ -24,8 +24,8 @@ app storeから検索してインストール
 ### 公式ドキュメント
 [https://get.slack.help/hc/ja/categories/200111606](https://get.slack.help/hc/ja/categories/200111606)
 
-### まとめ 
-以下のページに簡潔に使い方がまとまっていました。
+### 非公式ドキュメント 
+以下のページに簡潔に使い方がまとまっていました。  
 [https://tech-camp.in/note/technology/14901/](https://tech-camp.in/note/technology/14901/)
 
 ## Slackを少し使ってみる
