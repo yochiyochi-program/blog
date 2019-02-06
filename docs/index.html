@@ -36,7 +36,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://yochiyochi-program.github.io/blog/" />
 
-<meta property="og:updated_time" content="2019-02-05T14:17:19&#43;09:00"/>
+<meta property="og:updated_time" content="2019-02-06T15:59:00&#43;09:00"/>
 
 <meta itemprop="name" content="よちよちプログラミング部">
 <meta itemprop="description" content="">
@@ -120,6 +120,68 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/blog/posts/git/github-desktop/" class="color-inherit dim link">
+            Github Desktop
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          Github Desktopを使って以下の操作を行います。
+ プロジェクトのクローン ブランチ作成 ファイル修正 コミット プッシュ  インストール 以下の公式サイトからアプリをインストールしてください。
+公式サイト
+公式ドキュメント 英語のみですが以下が公式のドキュメントです。
+公式ドキュメント
+ログイン 以下の手順に沿ってログインを行います。
+公式ドキュメント
+クローン Githubのサイトからプロジェクトをローカルにダウンロードします。
+ Menu &gt; File &gt; Clone Repository を選択 対象のレポジトリを選択 ダウンロード先のローカルパスを指定  ブランチ作成  Menu &gt; Branch &gt; New Branch からブランチを新規に作成します。 Current Branchが新しく作成したブランチに切り替わっていることを確認します。  ファイル修正 vscodeでファイルを修正します。
+ Menu &gt; Repository &gt; Open in Visual Studio Code でエディタを開きます。 エディタでファイルを修正します。  コミット 修正したファイルを選択して、コミットします。
+プッシュ Pushボタンをクリックします。
+        </div>
+          <a href="/blog/posts/git/github-desktop/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/blog/posts/git/cli/" class="color-inherit dim link">
+            CLIでの実行
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+           CLIを使って以下の操作を行います。
+ プロジェクトのクローン ブランチ作成 ファイル修正 コミット プッシュ  インストール homebrewとgitをインストールします。
+homebrewのインストール 公式ドキュメント
+// インストール /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;  homebrewを使ってgitをインストール brew install git  プロジェクトのクローン Github上のプロジェクトをローカルにダウンロードします。
+// 任意のフォルダに移動 cd {任意のパス} // プロジェクトのクローン git clone {レポジトリのURL} // プロジェクトに移動 cd kintone-manual  ブランチ作成 // 任意のブランチ作成 git checkout -b {任意のブランチ名} // 新しく作成したブランチに移動していることを確認 git branch  コミット // 記事を作成（Markdown） // VSCodeなどのを使って記事を作成する // add git add . // コミット git commit -m &quot;{任意のメッセージ}&quot; // プッシュ git push origin {先ほど自身で作成したブランチ名}  
+        </div>
+          <a href="/blog/posts/git/cli/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="/blog/posts/markdown/" class="color-inherit dim link">
             Markdown
             </a>
@@ -142,74 +204,31 @@ Markdownのプレビュー方法について vscodeであれば、以下の手�
 
           </div>
         
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/blog/posts/slack/" class="color-inherit dim link">
-            Slack
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Slackの使い方についての説明です。
-ユーザー登録 招待メールから登録をお願いします。
-アプリインストール PC 公式サイトからインストール
-https://slack.com/intl/ja-jp/downloads
-スマホアプリ app storeから検索してインストール
-使い方の確認 公式ドキュメント https://get.slack.help/hc/ja/categories/200111606
-非公式ドキュメント 以下のページに簡潔に使い方がまとまっていました。
-https://tech-camp.in/note/technology/14901/
-Slackを少し使ってみる チャンネルの確認 各言語ごとにチャンネルが用意されているので質問内容に応じて使い分けてください。
-メッセージの投稿 // テキストメッセージ hello // 絵文字の投稿 hello :smile: // 引用（1行） &gt;hello // 引用（複数行） &gt;&gt;&gt;hello world  メッセージへのリアクション リアクションのボタンをクリック
-        </div>
-          <a href="/blog/posts/slack/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/blog/posts/vscode/" class="color-inherit dim link">
-            Visual Studio Codeのインストール方法
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          開発用エディタのVisual Studio Code のインストール方法です。 Visual Studio Code（通称： vscode）は、マイクロソフトが開発しているエディタです。
-インストール 以下のリンクからアプリをダウンロード。
-公式ページ
-日本語に切り替え 初期設定は英語なので日本語に切り替えたい場合は以下の手順で切り替えます。
- 1. extensions（機能拡張）の画面を開く 2. 日本語のextensionsを検索しダウンロードする 3. ダウンロード完了後。「Reload」をクリックする  便利なライブラリインストール 同様の方法で以下のextensionsをダウンロード。 他にも様々な便利なextensionsがありますのでいろいろと試してみてください。
-vscode-icons 各ファイルの横にファイルの種類が判別しやすいロゴが表示される。 見た目もかわいい。
-HTML Snippets HTMLの入力補完機能。 コーディングが楽になる。
-使ってみる 作業用のフォルダを開く Menu &gt; File &gt; Open
-をクリックしてフォルダを選択。必要に応じて新規フォルダを作成することもできます。
-ファイル、フォルダを作成する ファイルを作成 ファイル作成のアイコンをクリックしてファイルを作成します。 フォルダを作成 フォルダ作成のアイコンをクリックしてファイルを作成します。 フォルダの中にファイルを作成 対象のフォルダ名をクリックしてからファイル作成アイコンをクリックします。 まとめ これでエディタのインストールは完了です。 このエディタは開発だけでなくメモ帳などとしても使えますのでいろいろと活用してみてください。
-        </div>
-          <a href="/blog/posts/vscode/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
       </section>
 
+      
+      <section class="w-100">
+        <h1 class="f3">More</h1>
+        
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/blog/posts/slack/" class="link black dim">
+              Slack
+            </a>
+          </h2>
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/blog/posts/vscode/" class="link black dim">
+              Visual Studio Codeのインストール方法
+            </a>
+          </h2>
+        
+
+        
+        
+          <a href="/blog/posts/" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All Posts</a>
+        
+        </section>
       
 
       </div>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on よちよちプログラミング部</title>
+    <link>https://yochiyochi-program.github.io/blog/posts/git/</link>
+    <description>Recent content in Git on よちよちプログラミング部</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Feb 2019 15:39:04 +0900</lastBuildDate>
+    
+	<atom:link href="https://yochiyochi-program.github.io/blog/posts/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Github Desktop</title>
+      <link>https://yochiyochi-program.github.io/blog/posts/git/github-desktop/</link>
+      <pubDate>Wed, 06 Feb 2019 15:59:00 +0900</pubDate>
+      
+      <guid>https://yochiyochi-program.github.io/blog/posts/git/github-desktop/</guid>
+      <description>Github Desktopを使って以下の操作を行います。
+ プロジェクトのクローン ブランチ作成 ファイル修正 コミット プッシュ  インストール 以下の公式サイトからアプリをインストールしてください。
+公式サイト
+公式ドキュメント 英語のみですが以下が公式のドキュメントです。
+公式ドキュメント
+ログイン 以下の手順に沿ってログインを行います。
+公式ドキュメント
+クローン Githubのサイトからプロジェクトをローカルにダウンロードします。
+ Menu &amp;gt; File &amp;gt; Clone Repository を選択 対象のレポジトリを選択 ダウンロード先のローカルパスを指定  ブランチ作成  Menu &amp;gt; Branch &amp;gt; New Branch からブランチを新規に作成します。 Current Branchが新しく作成したブランチに切り替わっていることを確認します。  ファイル修正 vscodeでファイルを修正します。
+ Menu &amp;gt; Repository &amp;gt; Open in Visual Studio Code でエディタを開きます。 エディタでファイルを修正します。  コミット 修正したファイルを選択して、コミットします。
+プッシュ Pushボタンをクリックします。</description>
+    </item>
+    
+    <item>
+      <title>CLIでの実行</title>
+      <link>https://yochiyochi-program.github.io/blog/posts/git/cli/</link>
+      <pubDate>Wed, 06 Feb 2019 15:58:35 +0900</pubDate>
+      
+      <guid>https://yochiyochi-program.github.io/blog/posts/git/cli/</guid>
+      <description> CLIを使って以下の操作を行います。
+ プロジェクトのクローン ブランチ作成 ファイル修正 コミット プッシュ  インストール homebrewとgitをインストールします。
+homebrewのインストール 公式ドキュメント
+// インストール /usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;  homebrewを使ってgitをインストール brew install git  プロジェクトのクローン Github上のプロジェクトをローカルにダウンロードします。
+// 任意のフォルダに移動 cd {任意のパス} // プロジェクトのクローン git clone {レポジトリのURL} // プロジェクトに移動 cd kintone-manual  ブランチ作成 // 任意のブランチ作成 git checkout -b {任意のブランチ名} // 新しく作成したブランチに移動していることを確認 git branch  コミット // 記事を作成（Markdown） // VSCodeなどのを使って記事を作成する // add git add . // コミット git commit -m &amp;quot;{任意のメッセージ}&amp;quot; // プッシュ git push origin {先ほど自身で作成したブランチ名}  </description>
+    </item>
+    
+  </channel>
+</rss>
