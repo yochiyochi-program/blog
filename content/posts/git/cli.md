@@ -1,5 +1,5 @@
 ---
-title: "CLIでの実行"
+title: "CLIでのGitの実行"
 date: 2019-02-06T15:58:35+09:00
 draft: false
 ---
